@@ -3,8 +3,8 @@ def bubble_sort(unsorted_array)
 
   for i in 2..unsorted_array.length
     stop_index = unsorted_array.length - i
-    
     j = 0
+    
     while j <= stop_index
       a = sorted_array[j]
       b = sorted_array[j + 1]
